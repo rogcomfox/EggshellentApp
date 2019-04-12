@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "882086772162",
+    "firebase_url": "https://eggshellentapp.firebaseio.com",
+    "project_id": "eggshellentapp",
+    "storage_bucket": "eggshellentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882086772162:android:5866adfefed47fd7",
+        "android_client_info": {
+          "package_name": "com.nusantarian.eggshellentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882086772162-0m06uavtqrvv83013mt9k1o3o21sdlr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nusantarian.eggshellentapp",
+            "certificate_hash": "f799ad563fc3f9b7ccb6255e92e005185fc48aec"
+          }
+        },
+        {
+          "client_id": "882086772162-0g3bff7jdete1p9j16v9v1jg6qogcggl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRD_QuW8hGmBd8WSTkS6TZRJ2B5aktB6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882086772162-0g3bff7jdete1p9j16v9v1jg6qogcggl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
