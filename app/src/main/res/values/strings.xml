@@ -3,10 +3,15 @@
     <string name="logo">Logo</string>
     <string name="goodheath">GoodHeath</string>
     <string name="zerohunger">ZeroHunger</string>
-    <string name="username">Username</string>
+    <string name="username">Email Address</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="login">Login</string>
     <string name="signup">Signup</string>
     <string name="or_sign_in_using_google_account">Or Sign In Using Google Account</string>
+    <string name="register">Register</string>
+    <string name="fullname">FullName</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account_login_here">Already Have Account? Login Here</string>
 </resources>
