@@ -3,4 +3,10 @@
     <string name="logo">Logo</string>
     <string name="goodheath">GoodHeath</string>
     <string name="zerohunger">ZeroHunger</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="or_sign_in_using_google_account">Or Sign In Using Google Account</string>
 </resources>
