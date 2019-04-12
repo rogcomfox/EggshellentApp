@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EggshellentApp</string>
+    <string name="logo">Logo</string>
+    <string name="goodheath">GoodHeath</string>
+    <string name="zerohunger">ZeroHunger</string>
 </resources>
