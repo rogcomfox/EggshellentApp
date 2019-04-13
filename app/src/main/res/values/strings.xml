@@ -17,4 +17,8 @@
     <string name="please_enter_your_email_address">Please Enter Your Email Address</string>
     <string name="reset_password">Reset Password</string>
     <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="profile">Profile</string>
 </resources>
