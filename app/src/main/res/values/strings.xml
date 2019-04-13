@@ -14,4 +14,7 @@
     <string name="phonenumber">PhoneNumber</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_account_login_here">Already Have Account? Login Here</string>
+    <string name="please_enter_your_email_address">Please Enter Your Email Address</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back">Back</string>
 </resources>
