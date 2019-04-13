@@ -1,9 +1,11 @@
-package com.nusantarian.eggshellentapp;
+package com.nusantarian.eggshellentapp.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.nusantarian.eggshellentapp.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.nusantarian.eggshellentapp;
+package com.nusantarian.eggshellentapp.activity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.nusantarian.eggshellentapp.R;
 
 public class ForgotActivity extends AppCompatActivity {
 

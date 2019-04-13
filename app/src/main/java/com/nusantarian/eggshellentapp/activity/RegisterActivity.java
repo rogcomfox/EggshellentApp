@@ -1,4 +1,4 @@
-package com.nusantarian.eggshellentapp;
+package com.nusantarian.eggshellentapp.activity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.nusantarian.eggshellentapp.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

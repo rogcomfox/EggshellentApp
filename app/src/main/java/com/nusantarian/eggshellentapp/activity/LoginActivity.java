@@ -1,4 +1,4 @@
-package com.nusantarian.eggshellentapp;
+package com.nusantarian.eggshellentapp.activity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -25,6 +25,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.nusantarian.eggshellentapp.R;
 
 public class LoginActivity extends AppCompatActivity {
 
