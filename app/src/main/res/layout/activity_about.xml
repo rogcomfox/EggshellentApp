@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.AboutActivity">
-
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/back" />
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/toolbar"/>
+    <ImageView
+        android:id="@+id/img_good"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/goodhealth"
+        android:layout_below="@id/img_logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="40dp"
+        android:contentDescription="@string/goodheath" />
+    <ImageView
+        android:id="@+id/img_zero"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/zerohunger"
+        android:layout_below="@id/img_logo"
+        android:layout_toEndOf="@id/img_good"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/zerohunger" />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/responsibleconsumption"
+        android:layout_below="@id/img_logo"
+        android:layout_toEndOf="@id/img_zero"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/responsible" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_zero"
+        android:text="@string/copyright_eggshellent_team_2019_all_right_reserved"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+</RelativeLayout>
