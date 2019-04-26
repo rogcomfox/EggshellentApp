@@ -6,13 +6,28 @@
     android:orientation="vertical"
     tools:context=".fragment.ProfileFragment">
     <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/edit_profile"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:background="@drawable/card"
+        android:padding="10dp"/>
+    <Button
         android:id="@+id/btn_signout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/card"
-        android:layout_margin="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:text="@string/sign_out"
         android:textAlignment="textStart"
         android:padding="10dp"
+        android:layout_below="@id/btn_edit"
         android:textAllCaps="false"/>
 </RelativeLayout>
