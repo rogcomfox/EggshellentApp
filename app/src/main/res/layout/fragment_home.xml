@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,6 +10,73 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary">
     </android.support.v7.widget.Toolbar>
-
-
-</FrameLayout>
+    <TextView
+        android:id="@+id/tv_benefits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome"
+        android:textColor="@color/colorText"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_benefits"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/logo" />
+    <ImageView
+        android:id="@+id/img_good"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/goodhealth"
+        android:layout_below="@id/img_logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="40dp"
+        android:contentDescription="@string/goodheath" />
+    <ImageView
+        android:id="@+id/img_zero"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/zerohunger"
+        android:layout_below="@id/img_logo"
+        android:layout_toEndOf="@id/img_good"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/zerohunger" />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/responsibleconsumption"
+        android:layout_below="@id/img_logo"
+        android:layout_toEndOf="@id/img_zero"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/responsible" />
+    <TextView
+        android:id="@+id/tv_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_zero"
+        android:text="@string/a_marketplace_with_egg_shell_product"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_market"
+        android:text="@string/our_product_contain_calsium_laktat"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent1"/>
+</RelativeLayout>
