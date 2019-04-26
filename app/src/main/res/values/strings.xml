@@ -29,4 +29,10 @@
     <string name="dapoer_almira">Dapoer Almira</string>
     <string name="krian_sidoarjo_east_java_indonesia">Krian, Sidoarjo, East Java, Indonesia</string>
     <string name="cake_bread_cookies">Cake, Bread, Cookies</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="bread">Bread</string>
+    <string name="about">About</string>
+    <string name="responsible">Responsible</string>
+    <string name="copyright_eggshellent_team_2019_all_right_reserved">Copyright Eggshellent Team, @2019, All Right Reserved</string>
 </resources>
